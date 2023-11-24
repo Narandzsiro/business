@@ -1,0 +1,16 @@
+main{
+    background-color: #eb6c6c;
+}
+.fejlec{
+  background-image: url(../img/hímzettkép-700x380.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body, main,.fejlec{
+    border: solid 4px lightgray;
+}
+a{
+    text-decoration: none;
+}
