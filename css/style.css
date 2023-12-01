@@ -8,9 +8,50 @@ main{
   background-size: cover;
   background-position: center;
 }
+
 body, main,.fejlec{
-    border: solid 4px lightgray;
+    
+    margin: 15px;
 }
+
 a{
     text-decoration: none;
+}
+.sidenav{
+    /*border: solid 4px lightgray;*/
+    background-color: lightblue;
+    float: left;
+    width: 15%;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(142, 140, 140);
+    overflow-x: hidden;
+    margin-top: auto;
+    padding-top: 20px;
+    
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #b1b1b1;
+}
+.navbar{
+    float: center;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
